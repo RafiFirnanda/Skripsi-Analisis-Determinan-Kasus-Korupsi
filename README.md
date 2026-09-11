@@ -116,27 +116,21 @@ Skripsi-Analisis-Determinan-Kasus-Korupsi/
 │   └── Skripsi_Analisis_Determinan_Korupsi.ipynb
 │
 ├── data/
-│   ├── raw/
-│   └── processed/
+│   ├── ekstraksi_dataset.csv
 │
 ├── results/
-│   ├── figures/
-│   └── tables/
-│
-└── requirements.txt
+    ├── figures/
+    └── tables/
+
 ```
 
 ### `notebooks/`
 
 Berisi notebook Google Colab yang digunakan untuk proses penelitian, mulai dari preprocessing hingga analisis model dan SHAP.
 
-### `data/raw/`
+### `data/`
 
-Berisi dataset awal sebelum proses preprocessing.
-
-### `data/processed/`
-
-Berisi dataset yang telah melalui proses preprocessing dan siap digunakan untuk pemodelan.
+berisi data raw yang sudah diubah menjadi data tabular.
 
 ### `results/figures/`
 
